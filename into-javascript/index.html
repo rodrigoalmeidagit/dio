@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" src="./script/main.js"></script>
-  <title>Curso JavaScript - DIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./script/main.js"></script>
+    <title>Curso JavaScript - DIO</title>
 </head>
-<body>
-Minha página!
+
+<body onload="load()">
+    <button type="button" onclick="clicou()">Clique Aqui</button>
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <select onchange="funcaoChance(this)">
+        <option value="1">Valor1</option>
+        <option value="2">Valor2</option>
+        <option value="3">Valor3</option>
+    </select>
 </body>
+
 </html>
