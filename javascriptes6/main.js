@@ -69,11 +69,11 @@
 // Retorna um array de arrays contendo [nome_prop, valor_prop]
 // console.log(Object.entries(newUser));
 
-//Mergear propriedades de objetos
+//Merge propriedades de objetos
 // console.log(Object.assign(newUser, {fullName: 'Rodrigo Almeida'})); // add a propriedade fullName no objeto newUser
 
-// Retorna um novo objeto mergeando dois ou mais objetos:
-// console.log(Object.assign({}, newUser, {age: 41})); // {} Cria novo objeto // mergeando newUser + {age: 41}
+// Retorna um novo objeto merge dois ou mais objetos:
+// console.log(Object.assign({}, newUser, {age: 41})); // {} Cria novo objeto // merge newUser + {age: 41}
 // console.log(newUser)
 
 // Previne todas as alterações em um objeto:
